@@ -10,7 +10,7 @@ public class SegmentedSequenceFactory implements SequenceFactory {
 	private static SequenceFactory instance;
 
 	@Override
-	public Sequence createSequenece() {
+	public Sequence createSequence() {
 		return new SegmentedSequence();
 	}
 
