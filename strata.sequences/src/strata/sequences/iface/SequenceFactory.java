@@ -6,6 +6,6 @@ import strata.sequences.SegmentedSequenceFactory;
 
 public interface SequenceFactory {
 	
-	public Sequence createSequenece();
+	public Sequence createSequence();
 	public Sequence recreateSequenceWithId(UUID id);
 }

@@ -17,13 +17,13 @@ public class TestSequence {
 	
 	@Test
 	public void test() {
-		Sequence aSequence = sequenceFactory.createSequenece();
-		
+		Sequence aSequence = sequenceFactory.createSequence();
+
 		for(int i = 0; i < 10; i++)
 			aSequence.append(i);
-		
+
 		assertEquals((Integer)10,  aSequence.size());
-		
+
 		for(int i = 0; i < 10; i++)
 			assertEquals((Integer)i, aSequence.at(i));
 	}
@@ -31,7 +31,7 @@ public class TestSequence {
 	@Test
 	public void testIO() {
 		
-		Sequence aSequence = sequenceFactory.createSequenece();
+		Sequence aSequence = sequenceFactory.createSequence();
 		
 		for(int i = 0; i < 10; i++)
 			aSequence.append(i);
@@ -49,7 +49,7 @@ public class TestSequence {
 	@Test
 	public void testCutAndPaste() {
 
-		Sequence aSequence = sequenceFactory.createSequenece();
+		Sequence aSequence = sequenceFactory.createSequence();
 		
 		for(int i = 0; i < 10; i++)
 			aSequence.append(i);

@@ -55,7 +55,7 @@ class TestDiskPage {
 		assertEquals(DiskPage.PAGE_SIZE, aPage.size());
 		
 		for(int i = 0; i < DiskPage.PAGE_SIZE; i++) {
-			assertEquals(aPage.at(i), i);
+			assertEquals(aPage.at(i), i+3);
 		}
 	}
 	
